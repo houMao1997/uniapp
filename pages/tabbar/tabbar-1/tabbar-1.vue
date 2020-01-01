@@ -42,6 +42,65 @@
 				<view style="font-size:35rpx;">竞赛</view>
 			</view>
 		</view>
+		
+		<view class="zblist">
+			<view class="head">
+				<view class="title">直播</view>
+				<view class="more">...</view>
+			</view>
+			<view class="zblb">
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+			</view>
+		</view>
+		
+		
+		<view class="zblist" style="margin-top: 50upx;">
+			<view class="head">
+				<view class="title">推荐</view>
+				<view class="more">...</view>
+			</view>
+			<view class="zblb">
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+				<view class="zblblist">
+					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view class="title1" >名师指导在线直播</view>
+					<view class="title2" >28人转发</view>
+				</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -83,7 +142,7 @@ export default {
 }
 .uni-padding-wrap{
 		width:90%;
-		height: 300upx;
+		height: 10%;
 		margin-left: 5%;
 		/* background: red; */
 }
@@ -98,15 +157,66 @@ export default {
 	display: flex;
 	text-align: center;
 	background: #FFFFFE;
-	height: 180upx;
+	height: 20%;
 	border-radius: 10upx;
 	margin-left: 5%;
 	padding-top: 20upx;
+	margin-top: 20upx;
 }
 .listitem{
 	text-align: center;
 	margin: 0 auto;
 	width: 20%;
 }
-
+.zblist{
+	width: 90%;
+	background: #fff;
+	margin-left: 5%;
+	margin-top: 20upx;
+}
+.head{
+	display: flex;
+	position: relative;
+}
+.title{
+	
+}
+.more{
+	position: absolute;
+	right: 0;
+}
+.zbimg{
+	display: block;
+	width:100%;
+	height: 200upx;
+	border: 1px #007AFF solid;
+	border-radius: 10px;
+}
+.title1{
+	font-size: 26upx;
+	color: #007AFF;
+	height: 40upx;
+	line-height: 40upx;
+	margin-top: 10upx;
+	text-align: left;
+}
+.title2{
+	font-size: 20upx;
+	height: 40upx;
+	line-height: 40upx;
+	text-align: left;
+}
+.zblb{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	height: 700upx;
+}
+.zblblist{
+	width: 45%;
+	text-align: center;
+	margin-top: 30upx;
+	height: 300upx;
+}
 </style>
