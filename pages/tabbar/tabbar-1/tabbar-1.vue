@@ -50,22 +50,22 @@
 			</view>
 			<view class="zblb">
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/kc1.jfif"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/kc2.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/kc3.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/kc4.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
@@ -80,22 +80,22 @@
 			</view>
 			<view class="zblb">
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/zb1.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/zb2.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/phaser.jpg"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/zb3.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
 				<view class="zblblist">
-					<view><image  class="zbimg"  src="https://2fz1.me/img/css3.png"></image></view>
+					<view><image  class="zbimg"  src="../../../static/img/zb4.jpg"></image></view>
 					<view class="title1" >名师指导在线直播</view>
 					<view class="title2" >28人转发</view>
 				</view>
