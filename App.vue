@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style>
+	.uni-input-input{
+		/* background: #fff; */
+	}
 /*每个页面公共css */ 
 </style>

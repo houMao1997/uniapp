@@ -20,6 +20,46 @@
 				</view>
 			</view>
 		</view>
+		
+		<!--我的收藏  -->
+		
+			<!-- <view class="listitem listitem1 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">数据分析</view>
+			</view>
+			<view class="listitem listitem2 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">考试记录</view>
+			</view>
+			<view class="listitem listitem3 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">图表统计</view>
+			</view>
+			<view class="listitem listitem1 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">数据分析</view>
+			</view>
+			<view class="listitem listitem2 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">考试记录</view>
+			</view>
+			<view class="listitem listitem3 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">图表统计</view>
+			</view>
+			<view class="listitem listitem1 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">数据分析</view>
+			</view>
+			<view class="listitem listitem2 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">考试记录</view>
+			</view>
+			<view class="listitem listitem3 item">
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
+				<view style="font-size:30rpx;">图表统计</view>
+			</view> -->
+	
 	</view>
 </template>
 
@@ -73,5 +113,17 @@
 		text-align: center;
 		margin: 0 auto;
 		width: 20%;
+	}	
+		
+	.item1{
+		width: 33.33%;
+		height: 100upx;
+		background-color: red;
+	}
+	.shoucang{
+		width:90% ;
+		margin: 0 auto;
+		/* height:200upx ; */
+		background-color: pink;
 	}
 </style>
