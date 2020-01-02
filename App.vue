@@ -4,13 +4,13 @@ export default {
 		console.log('App Launch');
 
 		setTimeout(() => {
-			uni.setTabBarBadge({
-				index: 1,
-				text: '31'
-			});
-			uni.showTabBarRedDot({
-				index: 3
-			});
+			// uni.setTabBarBadge({
+			// 	index: 1,
+			// 	text: ''
+			// });
+			// uni.showTabBarRedDot({
+			// 	index: 3
+			// });
 		}, 1000);
 	},
 	onShow: function() {
@@ -23,8 +23,6 @@ export default {
 </script>
 
 <style>
-	.uni-input-input{
-		/* background: #fff; */
-	}
-/*每个页面公共css */ 
+
+
 </style>
