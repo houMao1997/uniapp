@@ -179,11 +179,21 @@ export default {
 	position: relative;
 }
 .title{
-	
+	font-size: 30upx;
+	display: block;
+	border-left: 10upx #90B7FF solid;
+	margin: 20px 10px;
+	padding-left: 10px;
+/* 	height: 30px;
+	line-height:30px; */
 }
 .more{
 	position: absolute;
 	right: 0;
+	height: 30px;
+	line-height:30px;
+	margin-top: 3%;
+	margin-right: 30upx;
 }
 .zbimg{
 	display: block;
@@ -212,6 +222,7 @@ export default {
 	flex-wrap: wrap;
 	align-content: flex-start;
 	height: 700upx;
+	margin-top: -50upx;
 }
 .zblblist{
 	width: 45%;
