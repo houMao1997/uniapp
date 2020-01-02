@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
 		页面 - 2
+		121212
 	</view>
 </template>
 
