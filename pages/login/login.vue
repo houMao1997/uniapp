@@ -307,6 +307,7 @@
 </script>
 
 <style lang="scss" scoped>
+
 page {
 		height: auto;
 		min-height: 100%;
@@ -481,7 +482,9 @@ page {
 		width: 33.33%;
 	}
 }
-.dlbutton-hover{
-	background: linear-gradient(to top,#63A0F1,#AED0FE);
+
+uni-page-head{
+	display: none;
+
 }
 </style>

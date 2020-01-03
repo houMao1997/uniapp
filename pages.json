@@ -4,6 +4,7 @@
 		{
 			"path": "pages/login/login",
 			"style": {
+
 				// "app-plus":{
 				//             "titleView":false  //不启用系统导航
 				//   },
@@ -67,15 +68,18 @@
 		{
 			"path": "pages/tabbar/tabbar-5/tabbar-5",
 			"style": {
+				"navigationBarBackgroundColor":"#7BAFFA",
 				"navigationBarTitleText": "个人中心",
-				"navigationBarBackgroundColor": "#7CB0FB",
+				// "navigationBarBackgroundColor": "linear-gradient(to right,#7BAFFA, #8FC1FE)",
 				"color": "#fff",
-				"app-plus": {
+				"app-plus": {				
 				    "titleNView": {
 				        "buttons": [
 				            {
 				                "text": "设置",
-				                "fontSize": "16px"
+				                "fontSize": "16px",
+								"float":"right"
+								
 				            }
 				        ]
 				    }
@@ -99,8 +103,14 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		// "navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#AFD1FF",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#87CEEB",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#fff",
+		// "backgroundColor": "#EDF0FF"
+
+
 	},
 	"tabBar": {
 		"borderStyle": "black",
@@ -109,41 +119,41 @@
 		"selectedColor": "#8EBEFE",
 		"list": [{
 				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
-				"iconPath": "static/img/tabbar/tab1.png",
-				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"iconPath": "static/img/tabbar/tab11.png",
+				"selectedIconPath": "static/img/tabbar/tab1.png",
 				"text": "首页"
 			},
 			{
 				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
-				"iconPath": "static/img/tabbar/tab2.png",
-				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"iconPath": "static/img/tabbar/tab22.png",
+				"selectedIconPath": "static/img/tabbar/tab2.png",
 				"text": "关注"
 			},
 			//#ifdef MP-WEIXIN
 			{
 				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
-				"iconPath": "static/img/tabbar/tab3.png",
-				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"iconPath": "static/img/tabbar/tab33.png",
+				"selectedIconPath": "static/img/tabbar/tab3.png",
 				"text": "发布"
 			},
 			//#endif
 			//#ifndef MP-WEIXIN
 			{
 				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
-				"iconPath": "static/img/tabbar/tab3.png",
-				"selectedIconPath": "static/img/tabbar/addactive.png"
+				"iconPath": "static/img/tabbar/tab33.png",
+				"selectedIconPath": "static/img/tabbar/tab3.png"
 			},
 			//#endif
 			{
 				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
-				"iconPath": "static/img/tabbar/tab4.png",
-				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"iconPath": "static/img/tabbar/tab44.png",
+				"selectedIconPath": "static/img/tabbar/tab4.png",
 				"text": "消息"
 			},
 			{
 				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
-				"iconPath": "static/img/tabbar/tab5.png",
-				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"iconPath": "static/img/tabbar/tab55.png",
+				"selectedIconPath": "static/img/tabbar/tab5.png",
 				"text": "我的",
 				"navigationBarTitleText": "uni-app"
 			}
