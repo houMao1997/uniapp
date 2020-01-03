@@ -96,7 +96,7 @@
 		// "navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#87CEEB",
 		"backgroundColor": "#F8F8F8",
-		"navigationBarTextStyle": "light"
+		"navigationStyle":"custom"
 		// "navigationBarTitleText": "uni-app",
 		// "navigationBarBackgroundColor": "#fff",
 		// "backgroundColor": "#EDF0FF"

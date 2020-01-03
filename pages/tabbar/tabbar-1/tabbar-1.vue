@@ -1,6 +1,8 @@
 <template>
+	
 	<view class="content">
-		 <view class="uni-padding-wrap">
+		 <cmd-nav-bar style="border: none;box-shadow: none;" :fixed="true"   title="首页"  font-color="#fff" background-color=" linear-gradient(to right,#7BAFFA, #8FC1FE);"></cmd-nav-bar>
+		 <view class="uni-padding-wrap" style="margin-top: 100upx;">
             <view class="page-section swiper">
                 <view class="page-section-spacing">
                     <swiper class="swiper"  :autoplay="autoplay" :interval="interval" :duration="duration">
@@ -24,21 +26,21 @@
             </view>
 		</view>
 		
-		<view class="adlist">
+		<view class="adlist" style="padding-bottom: 20upx;">
 			<view class="listitem listitem1">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/1.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
 				<view style="font-size:35rpx;">新闻</view>
 			</view>
 			<view class="listitem listitem2">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/2.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
 				<view style="font-size:35rpx;">突破</view>
 			</view>
 			<view class="listitem listitem3">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/3.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
 				<view style="font-size:35rpx;">集锦</view>
 			</view>
 			<view class="listitem listitem4">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/4.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
 				<view style="font-size:35rpx;">竞赛</view>
 			</view>
 		</view>
@@ -105,7 +107,9 @@
 </template>
 
 <script>
+	import cmdNavBar from "@/components/cmd-nav-bar/cmd-nav-bar.vue"
 export default {
+	components: {cmdNavBar},
 	data() {
 		return {
 		 // background: ['red', 'color2', 'color3'],

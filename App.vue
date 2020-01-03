@@ -1,5 +1,7 @@
 <script>
+	
 export default {
+	
 	onLaunch: function() {
 		console.log('App Launch');
 		setTimeout(() => {
@@ -22,6 +24,8 @@ export default {
 </script>
 
 <style>
-
+.cmd-nav-bar{
+	box-shadow: none;
+}
 
 </style>
