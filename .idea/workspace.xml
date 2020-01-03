@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9109a36b-792b-47b8-8b78-1b8c64f3e492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uniapp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tabbar/tabbar-5/tabbar-5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tabbar/tabbar-5/tabbar-5.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577943388855</updated>
-      <workItem from="1577943390261" duration="2212000" />
+      <workItem from="1577943390261" duration="4073000" />
     </task>
     <servers />
   </component>

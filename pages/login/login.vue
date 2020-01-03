@@ -179,15 +179,13 @@
 		}
 	}
 </script>
-<style>
+
+<style lang="scss" scoped>
 	page {
 		height: auto;
 		min-height: 100%;
 		background-color: #f5f6f8;
 	}
-</style>
-<style lang="scss" scoped>
-	
 	// $logo-padding: 60px;
 	// $form-border-color: rgba(214, 214, 214, 1);
 	// $text-color: #B6B6B6;
@@ -346,5 +344,8 @@
 	.items{
 		width: 33.33%;
 	}
+}
+uni-page-head{
+	display: none;
 }
 </style>
