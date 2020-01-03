@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="header">
-			<!-- <image src="../../static/shilu-login/logo.png"></image> -->
+			<image src="../../static/img/2/1.png" style="width: 161upx; height: 161upx;"></image>
 		</view>
 		
 		<view class="list">
@@ -161,7 +161,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -170,8 +170,9 @@
 	.header {
 		width:161upx;
 		height:161upx;
-		background:rgba(63,205,235,1);
-		box-shadow:0upx 12upx 13upx 0upx rgba(63,205,235,0.47);
+		/* background:rgba(63,205,235,1); */
+		background: linear-gradient(to top,#63A0F1,#AED0FE);
+		box-shadow:0upx 5upx 5upx 0upx rgba(0,0,0,0.5);
 		border-radius:50%;
 		margin-top: 30upx;
 		margin-left: auto;
@@ -211,14 +212,14 @@
 		margin-left: 16upx;
 	}
 	.yzm {
-		color: #FF7D13;
+		color: #000;
 		font-size: 24upx;
 		line-height: 64upx;
 		padding-left: 10upx;
 		padding-right: 10upx;
 		width:auto;
 		height:64upx;
-		border:1upx solid #FFA800;
+		border:1upx solid #95BCEF;
 		border-radius: 50upx;
 	}
 	.yzms {
@@ -230,7 +231,8 @@
 		font-size: 34upx;
 		width:470upx;
 		height:100upx;
-		background:linear-gradient(-90deg,rgba(63,205,235,1),rgba(188,226,158,1));
+		/* background:linear-gradient(-90deg,rgba(63,205,235,1),rgba(188,226,158,1)); */
+		background: linear-gradient(to top,#63A0F1,#AED0FE);
 		box-shadow:0upx 0upx 13upx 0upx rgba(164,217,228,0.2);
 		border-radius:50upx;
 		line-height: 100upx;

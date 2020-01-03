@@ -31,12 +31,10 @@
 	}
 </script>
 
-<style>
+<style lang="scss" scoped>
 	page {
 		background-color: #f5f6f8;
 	}
-</style>
-<style lang="scss" scoped>
 	$text-color: #B6B6B6;
 	$form-border-color: rgba(214, 214, 214, 1);
 	

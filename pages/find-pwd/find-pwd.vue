@@ -10,7 +10,7 @@
 			<view class="list-call">
 				<image class="img" src="/static/shilu-login/2.png"></image>
 				<input class="biaoti" type="text" v-model="password" maxlength="32" placeholder="请输入新密码" :password="!showPassword" />
-				<image class="img" :src="showPassword?'/static/shilu-login/op.png':'/static/shilu-login/cl.png'" @tap="display"></image>
+				<image class="img" :src="showPassword?'/static/img/open.jpg':'/static/img/close.jpg'" @tap="display"></image>
 			</view>
 			<view class="list-call">
 				<image class="img" src="/static/shilu-login/3.png"></image>
@@ -159,6 +159,8 @@
     	height: 100upx;
     	color: #333333;
     	border-bottom: 1upx solid rgba(230,230,230,1);
+    
+		/* rgba(230,230,230,1); */
     }
     .list-call .img{
     	width: 40upx;
@@ -176,7 +178,8 @@
 		font-size: 34upx;
 		width:470upx;
 		height:100upx;
-		background:linear-gradient(-90deg,rgba(63,205,235,1),rgba(188,226,158,1));
+		/* background:linear-gradient(-90deg,rgba(63,205,235,1),rgba(188,226,158,1)); */
+		background: linear-gradient(to top,#63A0F1,#AED0FE);
 		box-shadow:0upx 0upx 13upx 0upx rgba(164,217,228,0.2);
 		border-radius:50upx;
 		line-height: 100upx;
@@ -186,17 +189,20 @@
 		margin-top: 100upx;
 	}
 	.dlbutton-hover {
-		background:linear-gradient(-90deg,rgba(63,205,235,0.9),rgba(188,226,158,0.9));
+			background: #63A0F1;
+			/* linear-gradient(to top,#63A0F1,#AED0FE); */
+		/* background:linear-gradient(-90deg,rgba(63,205,235,0.9),rgba(188,226,158,0.9)); */
 	}
 	.yzm {
-		color: #FF7D13;
+		/* color: #000; */
 		font-size: 24upx;
 		line-height: 64upx;
 		padding-left: 10upx;
 		padding-right: 10upx;
 		width:auto;
 		height:64upx;
-		border:1upx solid rgba(255,131,30,1);
+		border:1upx solid #95BCEF;
+		/* rgba(255,131,30,1); */
 		border-radius: 50upx;
 	}
 	.yzms {

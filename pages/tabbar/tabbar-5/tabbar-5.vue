@@ -21,7 +21,6 @@
 			</view>
 		</view>
 		
-<<<<<<< HEAD
 		<!--我的收藏  -->
 		
 			<!-- <view class="listitem listitem1 item">
@@ -61,7 +60,6 @@
 				<view style="font-size:30rpx;">图表统计</view>
 			</view> -->
 	
-=======
 		<view>
 			<view class="zblist" style="margin-top:30upx;">
 				<view class="zblb">
@@ -119,7 +117,6 @@
 				<view style="font-size:25rpx;">商务合作</view>
 			</view>
 		</view>
->>>>>>> 4458c711bbf68a006ba26425eff773e58b81d1b6
 	</view>
 </template>
 
@@ -171,7 +168,7 @@
 		padding-bottom: 30upx;
 		
 	}
-<<<<<<< HEAD
+
 	.listitem{
 		text-align: center;
 		margin: 0 auto;
@@ -189,7 +186,7 @@
 		/* height:200upx ; */
 		background-color: pink;
 	}
-=======
+
 .adlist{
 	width: 90%;
 	display: flex;
@@ -258,5 +255,4 @@
 } 
 
 
->>>>>>> 4458c711bbf68a006ba26425eff773e58b81d1b6
 </style>

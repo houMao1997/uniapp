@@ -4,7 +4,13 @@
 		{
 			"path": "pages/login/login",
 			"style": {
-				
+				// "app-plus":{
+				//             "titleView":false  //不启用系统导航
+				//   },
+				"navigationStyle":"custom",
+				"app-plus":{
+				"titleView":false
+				}
 			}
 		},
 		{
@@ -34,13 +40,15 @@
 		{
 			"path": "pages/find-pwd/find-pwd",
 			"style": {
-				
+				// "navigationStyle":"custom"
+				"navigationBarBackgroundColor": "#fff"
 			}
 		},
 		{
 			"path": "pages/reg/reg",
 			"style": {
-				
+				"navigationBarBackgroundColor": "#fff"
+				// "navigationStyle":"custom"
 			}
 		},
 		
@@ -89,17 +97,10 @@
 		}
 	],
 	"globalStyle": {
-<<<<<<< HEAD
 		"navigationBarTextStyle": "black",
 		// "navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#87CEEB",
+		"navigationBarBackgroundColor": "#AFD1FF",
 		"backgroundColor": "#F8F8F8"
-=======
-		"navigationBarTextStyle": "light",
-		// "navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#fff",
-		"backgroundColor": "#EDF0FF"
->>>>>>> 4458c711bbf68a006ba26425eff773e58b81d1b6
 	},
 	"tabBar": {
 		"borderStyle": "black",
