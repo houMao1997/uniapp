@@ -51,6 +51,7 @@
     },
     data() {
       return {
+		  // 输入的秘钥值
         value: '',
       }
     },
@@ -69,6 +70,7 @@
         this.$emit('update:visible', false)
       },
       confirm() {
+		// console.log(this.value)
         this.$emit('confirm', this.value)
         this.value = ''
       },
@@ -84,7 +86,7 @@
   }
 
   .prompt-box {
-    /* position: fixed; */
+    position: fixed;
     left: 0;
     top: 0;
     display: flex;
@@ -92,7 +94,8 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, .2);
+	z-index: 9999;
+    background: rgba(0, 0, 0, 0.7);
     transition: opacity .2s linear;
   }
 
@@ -153,9 +156,11 @@
 
   .prompt-cancle {
     background: white;
+	color: #63A0F1!important;
   }
 
   .prompt-confirm {
     color: white;
+	background: #63A0F1!important;
   }
 </style>

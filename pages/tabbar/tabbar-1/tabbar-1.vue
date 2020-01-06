@@ -28,20 +28,20 @@
 		
 		<view class="adlist" style="padding-bottom: 20upx;">
 			<view class="listitem listitem1">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
-				<view style="font-size:35rpx;">新闻</view>
+				<view><image style="width:200upx;height:200upx;" src="../../../static/img/1.png"></image></view>
+				<view style="font-size:35rpx;margin-top:-30upx;margin-left:60upx;">新闻</view>
 			</view>
 			<view class="listitem listitem2">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
-				<view style="font-size:35rpx;">突破</view>
+				<view><image style="width:200upx;height:200upx;" src="../../../static/img/2.png"></image></view>
+				<view style="font-size:35rpx;margin-top:-30upx;margin-left:60upx;">突破</view>
 			</view>
 			<view class="listitem listitem3">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
-				<view style="font-size:35rpx;">集锦</view>
+				<view><image style="width:200upx;height:200upx;" src="../../../static/img/3.png"></image></view>
+				<view style="font-size:35rpx;margin-top:-30upx;margin-left:60upx;">集锦</view>
 			</view>
 			<view class="listitem listitem4">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
-				<view style="font-size:35rpx;">竞赛</view>
+				<view><image style="width:200upx;height:200upx;" src="../../../static/img/4.png"></image></view>
+				<view style="font-size:35rpx;margin-top:-30upx;margin-left:60upx;">竞赛</view>
 			</view>
 		</view>
 		
@@ -170,6 +170,7 @@ export default {
 .listitem{
 	text-align: center;
 	margin: 0 auto;
+	margin-left: -15upx;
 	width: 20%;
 }
 .zblist{

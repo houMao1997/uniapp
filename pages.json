@@ -4,9 +4,7 @@
 		{
 			"path": "pages/login/login",
 			"style": {
-				"navigationStyle":"custom",
-				"app-plus": "false"
-				
+				"navigationStyle":"custom"
 			}
 		},
 		{
@@ -36,13 +34,15 @@
 		{
 			"path": "pages/find-pwd/find-pwd",
 			"style": {
-				
+				// "navigationStyle":"custom"
+				"navigationBarBackgroundColor": "#fff"
 			}
 		},
 		{
 			"path": "pages/reg/reg",
 			"style": {
-				
+				"navigationBarBackgroundColor": "#fff"
+				// "navigationStyle":"custom"
 			}
 		},
 		
@@ -103,6 +103,7 @@
 		// "navigationBarBackgroundColor": "#fff",
 		// "backgroundColor": "#EDF0FF"
 
+
 	},
 	"tabBar": {
 		"borderStyle": "black",
@@ -133,7 +134,8 @@
 			{
 				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
 				"iconPath": "static/img/tabbar/tab33.png",
-				"selectedIconPath": "static/img/tabbar/tab3.png"
+				"selectedIconPath": "static/img/tabbar/tab3.png",
+				"text": "发布"
 			},
 			//#endif
 			{

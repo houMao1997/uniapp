@@ -1,6 +1,12 @@
 <template>
 	<view class="content">
-		 <cmd-nav-bar style="border: none;box-shadow: none;" :fixed="true" right-text="设置"   title="个人中心"  @rightText="settings()" font-color="#fff" background-color=" linear-gradient(to right,#7BAFFA, #8FC1FE);"></cmd-nav-bar>
+		<cmd-nav-bar 
+			style="border: none;box-shadow: none;"
+		    :fixed="true" right-text="设置" 
+			title="个人中心"  
+		    @rightText="settings()" font-color="#fff" 
+		    background-color=" linear-gradient(to right,#7BAFFA, #8FC1FE);">
+		</cmd-nav-bar>
 		<view style="width: 100%;height:300upx; background-image: linear-gradient(to right,#7BAFFA, #8FC1FE);"></view>
 		<view class="personal">
 			<image style="width: 200upx;height:200upx;border-radius: 50%;margin-top: -15%;border: 5px #fff solid;" src="../../../static/img/kc1.jpg"></image>
@@ -8,55 +14,53 @@
 			<view  style="font-size: 30upx;color: #ccc;margin-top: 15upx;">一个努力的英语学习者</view>
 			<view class="adlist">
 				<view class="listitem listitem1">
-					<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+					<view><image style="width:100upx;height:100upx;" src="../../../static/img/sjfx.png"></image></view>
 					<view style="font-size:25rpx;color: #959595;">数据分析</view>
 				</view>
 				<view class="listitem listitem2">
-					<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+					<view><image style="width:100upx;height:100upx;" src="../../../static/img/ksjl.png"></image></view>
 					<view style="font-size:25rpx;color: #959595;">考试记录</view>
 				</view>
 				<view class="listitem listitem3">
-					<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+					<view><image style="width:100upx;height:100upx;" src="../../../static/img/tbtj.png"></image></view>
 					<view style="font-size:25rpx;color: #959595;">图表统计</view>
 				</view>
 			</view>
 		</view>
-
-
 		<view>
 			<view class="zblist" style="margin-top:30upx;">
 				<view class="zblb" >
 					<uni-grid :column="3" :show-border="false"  :square="true" style="text-align: center;margin: 20px auto;">
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/wdsc.png"></image></view>
 					       <view class="title1" >我的收藏</view>
 					    </uni-grid-item>
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/lsks.png"></image></view>
 					        <view class="title1" >历史考试</view>
 					    </uni-grid-item>
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/lsks.png"></image></view>
 					       <view class="title1" >我的下载</view>
 					    </uni-grid-item>
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/wdyy.png"></image></view>
 					        <view class="title1" >我的预约</view>
 					    </uni-grid-item>
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/zxzb.png"></image></view>
 					        <view class="title1" >在线直播</view>
 					    </uni-grid-item>
 					    <uni-grid-item>
-					       <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+					       <view><image  class="zbimg"  src="../../../static/img/wdqb.png"></image></view>
 					        <view class="title1" >我的钱包</view>
 					    </uni-grid-item>
 						<uni-grid-item>
-						    <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+						    <view><image  class="zbimg"  src="../../../static/img/wdgm.png"></image></view>
 						    <view class="title1" >我的购买</view>
 						</uni-grid-item>
 						<uni-grid-item>
-						   <view><image  class="zbimg"  src="../../../static/img/qq.png"></image></view>
+						   <view><image  class="zbimg"  src="../../../static/img/ztpf.png"></image></view>
 						    <view class="title1" >主题皮肤</view>
 						</uni-grid-item>
 						<!-- <uni-grid-item>
@@ -73,15 +77,15 @@
 		
 		<view class="adlist1">
 			<view class="listitem listitem1">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/yjfk.png"></image></view>
 				<view style="font-size:30rpx;">意见反馈</view>
 			</view>
 			<view class="listitem listitem2">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/zxkf.png"></image></view>
 				<view style="font-size:30rpx;">在线客服</view>
 			</view>
 			<view class="listitem listitem3">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qq.png"></image></view>
+				<view><image style="width:100upx;height:100upx;" src="../../../static/img/swhz.png"></image></view>
 				<view style="font-size:30rpx;">商务合作</view>
 			</view>
 		</view>
@@ -93,7 +97,7 @@
 	import uniGridItem from "@/components/uni-grid-item/uni-grid-item.vue"
 	import cmdNavBar from "@/components/cmd-nav-bar/cmd-nav-bar.vue"
 	export default {
-		components: {uniGrid,uniGridItem,uniNavBar,cmdNavBar},
+		components: {uniGrid,uniGridItem,cmdNavBar},
 		data() {
 			return {
 				title: 'Hello'
@@ -109,9 +113,7 @@
 		                };
 		
 		                if (val.index == 0) {
-		
-		                                console.log("第二个按钮");
-		
+		                    console.log("第二个按钮");
 		                }
 		
 		},
@@ -242,5 +244,4 @@
 	text-align: center;
 	margin-left: 26%;
 } 
-
 </style>
