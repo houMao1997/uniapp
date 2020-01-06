@@ -55,6 +55,13 @@
 				</view>
 				<view class="items">
 					<image src="../../static/img/wb.png"  style="width: 200upx; height: 200upx;"  @tap="thirdLogin('weibo')"></image>
+					<image src="../../static/img/qq.png"  style="width:150upx;height:150upx ;" @tap="thirdLogin('qq')"></image>
+				</view>
+				<view class="items">
+					<image src="../../static/img/wechat.png"   style="width:150upx;height:150upx ;" @tap="thirdLogin('wechat')" ></image>
+				</view>
+				<view class="items">
+					<image src="../../static/img/weibo.png"   style="width:150upx;height:150upx ;"  @tap="thirdLogin('weibo')"></image>
 				</view>
 			</view>		
 		</view> 		
@@ -494,6 +501,7 @@ page {
 	}
 .login_lists{
 	width: 100%;
+	margin: 10px 30upx;
 	// height: 101rpx;
 	// height: 140upx;
 	// background-color: pink;

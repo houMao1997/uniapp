@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9109a36b-792b-47b8-8b78-1b8c64f3e492" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/identify.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/close.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ganraotu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/open.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/zz-prompt/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/zz-prompt/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/find-pwd/find-pwd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/find-pwd/find-pwd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/find-pwd/find-pwd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/find-pwd/find-pwd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reg-pwd/reg-pwd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reg-pwd/reg-pwd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reg/reg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reg/reg.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/tabbar/tabbar-1/tabbar-1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tabbar/tabbar-1/tabbar-1.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/tabbar/tabbar-5/tabbar-5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tabbar/tabbar-5/tabbar-5.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/4.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577943388855</updated>
       <workItem from="1577943390261" duration="4073000" />
-      <workItem from="1578026503718" duration="57000" />
+      <workItem from="1578026503718" duration="3507000" />
     </task>
     <servers />
   </component>
