@@ -120,13 +120,6 @@
 				"selectedIconPath": "static/img/tabbar/tab3.png",
 				"text": "发布"
 			},
-
-			{
-				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
-				"iconPath": "static/img/tabbar/tab33.png",
-				"selectedIconPath": "static/img/tabbar/tab3.png",
-				"text": "发布"
-			},
 			{
 				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
 				"iconPath": "static/img/tabbar/tab44.png",
