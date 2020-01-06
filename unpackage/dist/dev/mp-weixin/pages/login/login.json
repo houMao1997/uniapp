@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "prompt": "/components/zz-prompt/index",
+    "uni-pop": "/components/uni-popup/uni-popup"
+  }
+}

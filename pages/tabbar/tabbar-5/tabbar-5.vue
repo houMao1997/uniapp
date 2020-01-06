@@ -22,45 +22,6 @@
 			</view>
 		</view>
 
-		
-		<!--我的收藏  -->
-		
-			<!-- <view class="listitem listitem1 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">数据分析</view>
-			</view>
-			<view class="listitem listitem2 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">考试记录</view>
-			</view>
-			<view class="listitem listitem3 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">图表统计</view>
-			</view>
-			<view class="listitem listitem1 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">数据分析</view>
-			</view>
-			<view class="listitem listitem2 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">考试记录</view>
-			</view>
-			<view class="listitem listitem3 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">图表统计</view>
-			</view>
-			<view class="listitem listitem1 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">数据分析</view>
-			</view>
-			<view class="listitem listitem2 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">考试记录</view>
-			</view>
-			<view class="listitem listitem3 item">
-				<view><image style="width:100upx;height:100upx;" src="../../../static/img/qa.png"></image></view>
-				<view style="font-size:30rpx;">图表统计</view>
-			</view> -->
 		<view>
 			<view class="zblist" style="margin-top:30upx;">
 				<view class="zblb" >
@@ -101,9 +62,7 @@
 						    <view><image  class="zbimg"  src="../../../static/img/my1.png"></image></view>
 						    <view class="title1" >我的收藏</view>
 						</uni-grid-item> -->
-					</uni-grid>
-					
-					
+					</uni-grid>					
 				</view>
 			</view>
 

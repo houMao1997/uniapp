@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/find-pwd/find-pwd",
+    "pages/reg/reg",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/tabbar/tabbar-5/tabbar-5",
+    "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+    "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+    "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#D0E4FD",
+    "selectedColor": "#8EBEFE",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "iconPath": "static/img/tabbar/tab11.png",
+        "selectedIconPath": "static/img/tabbar/tab1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "iconPath": "static/img/tabbar/tab22.png",
+        "selectedIconPath": "static/img/tabbar/tab2.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "iconPath": "static/img/tabbar/tab33.png",
+        "selectedIconPath": "static/img/tabbar/tab3.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/img/tabbar/tab44.png",
+        "selectedIconPath": "static/img/tabbar/tab4.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+        "iconPath": "static/img/tabbar/tab55.png",
+        "selectedIconPath": "static/img/tabbar/tab5.png",
+        "text": "我的",
+        "navigationBarTitleText": "uni-app"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

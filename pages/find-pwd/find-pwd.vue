@@ -2,7 +2,8 @@
 	<view class="content">
 		
 		<view class="list">
-			<view class="tishi">若您忘记了密码，可在此重新设置新密码。</view>
+			 <cmd-nav-bar style="border:none;box-shadow: none;"  back   :fixed="true"     font-color="#fff" background-color=" linear-gradient(to right,#7BAFFA, #8FC1FE);"></cmd-nav-bar>
+			<view class="tishi" style="margin-top: 100upx;" >若您忘记了密码，可在此重新设置新密码。</view>
 			<view class="list-call">
 				<image class="img" src="/static/shilu-login/1.png"></image>
 				<input class="biaoti" type="number" v-model="phoneno" maxlength="11" placeholder="请输入手机号" />
@@ -26,8 +27,10 @@
 </template>
 
 <script>
+	import cmdNavBar from "@/components/cmd-nav-bar/cmd-nav-bar.vue"
 	var tha,js;
 	export default {
+		components: {cmdNavBar},
 		data() {
 			return {
 				phoneno:'',
@@ -133,6 +136,20 @@
 </script>
 
 <style>
+		
+	.back{
+		width: 100%;
+		height: 60upx;
+		
+	}
+	.back img{
+		/* width: 100%; */
+	/* 	height: 60upx; */
+		
+	}
+	/* .back img:hover{
+		cursor:pointer;
+	} */
 	.content {
 		display: flex;
 		flex-direction: column;

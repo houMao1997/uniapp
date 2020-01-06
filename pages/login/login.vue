@@ -5,6 +5,7 @@
 	<prompt :visible.sync="promptVisible"  @confirm="clickPromptConfirm" mainColor="#e74a39">
 	  <!-- 这里放入slot内容-->
 	</prompt>
+	<!-- x-->
 	<view class="page_login" v-if="flag==1" >
 		<view class="login">
 			<view class="headers">
@@ -35,8 +36,7 @@
 			<!--  点击切换教师登录-->
 			<view class="xian"></view>
 			<view class="changes" @tap="change" >
-				点击切换教师账号
-				
+				点击切换教师账号				
 			</view>
 			
 		</view>
@@ -48,13 +48,13 @@
 			</view>
 			<view class="login_lists">
 				<view class="items">
-					<image src="../../static/img/2/2.png"  style="width: 100%;height:202upx ;" @tap="thirdLogin('qq')"></image>
+					<image src="../../static/img/q.png"  style="width: 200upx; height: 200upx;" @tap="thirdLogin('qq')"></image>
 				</view>
 				<view class="items">
-					<image src="../../static/img/2/3.png"  style="width: 100%; height:202upx ;" @tap="thirdLogin('wechat')" ></image>
+					<image src="../../static/img/wx.png"  style="width: 200upx; height: 200upx; " @tap="thirdLogin('wechat')" ></image>
 				</view>
 				<view class="items">
-					<image src="../../static/img/2/4.png"  style="width: 100%;height:202upx;"  @tap="thirdLogin('weibo')"></image>
+					<image src="../../static/img/wb.png"  style="width: 200upx; height: 200upx;"  @tap="thirdLogin('weibo')"></image>
 				</view>
 			</view>		
 		</view> 		
@@ -101,13 +101,13 @@
 			</view>
 			<view class="login_lists">
 				<view class="items">
-					<image src="../../static/img/2/2.png"   style="width: 100%;height:202upx ;" @tap="thirdLogin('qq')"></image>
+					<image src="../../static/img/q.png"   style="width: 100%;height:202rx ;" @tap="thirdLogin('qq')"></image>
 				</view>
 				<view class="items">
-					<image src="../../static/img/2/3.png"  style="width: 100%; height:202upx ;" @tap="thirdLogin('wechat')" ></image>
+					<image src="../../static/img/wx.png"  style="width: 100%; height:202rpx;" @tap="thirdLogin('wechat')" ></image>
 				</view>
 				<view class="items">
-					<image src="../../static/img/2/4.png"  style="width: 100%; height:202upx ;"  @tap="thirdLogin('weibo')"></image>
+					<image src="../../static/img/wb.png"  style="width: 100%; height:202rpx;"  @tap="thirdLogin('weibo')"></image>
 				</view>
 			</view>		
 		</view> 		
@@ -233,8 +233,8 @@
 					}
 					// 
 					if (this.identifyCode !== this.verifyNum) {
-				        uni.showToast({ icon: 'none',
-				        title: '密码不正确',
+				       uni.showToast({ icon: 'none',
+				       title: '密码不正确',
 					});
 				        this.verifyNum = "";
 				        this.refreshCode();
@@ -254,7 +254,8 @@
 			// 注册
 			goReg() {
 				uni.navigateTo({
-					url:'/pages/reg/reg'
+					url:'/pages/reg/reg?flag='+this.flag
+					// url:'./nav?index='+navData
 				})
 			},
 			// 第三方登录
@@ -273,10 +274,19 @@
 			},
 			// 弹框点击确定按钮后发生的事件
 			clickPromptConfirm(val) {
-			      // console.log(123)
+			    
 				  console.log(val)
-				  this.flag===1?this.flag=2:this.flag=1	
-				  this.promptVisible=false		 			  
+				  if(val!=='123456'){
+					uni.showToast({ icon: 'none',
+					title: '密码不正确',
+					})
+					
+				  }else{
+					  this.flag===1?this.flag=2:this.flag=1
+					  this.promptVisible=false		
+				  }
+				 
+				 			  
 			  },
 			  //生成随机验证码
 			refreshCode() {
@@ -326,11 +336,11 @@ page {
 	body,html,
 	.page_login {
 		padding: 10px;
-		// background-color: #87CEEB;
+		height: 100%;
 		background: linear-gradient(to top,#63A0F1,#AED0FE);
 		.login{
 			width:86% ;
-			height: 840upx;
+			height: 100%;
 			background-color: #fff;
 			margin: 0 auto;
 			margin-top: 100upx;
@@ -338,15 +348,15 @@ page {
 			border-top: 1px solid transparent;
 			box-shadow:0upx 5upx 5upx 0upx rgba(0,0,0,0.47);
 			.headers{
-				width: 150upx;
-				height: 150upx;
+				width: 150rpx;
+				height: 150rpx;
 				padding: 10upx;
 				// background-color: #fff;
 				border: 2px solid #fff;
 				border-radius: 50%;
 				margin:0 auto;
-				margin-top: -85upx;
-				margin-bottom: 80upx;
+				margin-top: -85rpx;
+				margin-bottom: 80rpx;
 				.head-img{
 					width: 100%;
 					height: 100%;
@@ -361,21 +371,26 @@ page {
 		.uni-page-head{
 			display: none!important;
 		}
+	}
+	.login_form{
+		width: 100%;
 	}	
 	.input{
 		width: 80%;
 		height: 60upx;
+		// height: 20%;
 		border: 1px solid #ccc;
 		margin: 0 auto;
-		border-radius: 30upx;
-		margin-bottom: 50upx;
+		border-radius: 30rpx;
+		overflow: hidden;
+		margin-bottom: 50rpx;
 		
 	input{
-		 width: 100%;
-		 height: 100%;
-		 border:0;
-		 // color: ;
-		 text-align: center;
+		width: 100%;
+		height: 100%;
+		border:0;
+		font-size: 28rpx;
+		text-align: center;
 	}
 		
 	.ipt{
@@ -395,6 +410,7 @@ page {
 		float: right;
 		text-align: center;
 		background: url(../../static/img/ganraotu.jpg);
+		border-radius: 30upx;
 		// background: url(../../static/img/6.jpg);
 	}
 	}
@@ -415,23 +431,26 @@ page {
 	.input2{
 		border: none;
 		color: #ccc;
-		font-size: 14px;
+		font-size: 34upx;
 		.text{ 
 			float: left;
+			font-size: 34upx;
 		}
 		.zhuce{ 
 			float: right;
+			font-size: 34upx;
 		}
 		}
 			
 		.submit{
 			width: 80%;
-			height: 100upx;
+			height: 100rpx;
 			border: 1px solid #448BF4;
 			margin: 0 auto;
-			border-radius: 50upx;
-			margin-bottom: 50upx;
+			border-radius: 50rpx;
+			margin-bottom: 50rpx;
 			color: #448BF4;
+			font-size: 34upx;
 			
 		}
 .xian{ 
@@ -439,18 +458,19 @@ page {
 	height: 1px;
 	// border: 1px silid #448BF4;
 	background-color:#448BF4;
+	// margin: 8upx 0 8upx 0;
 }
 	
 .changes{
 	width: 40%;
-	height: 60upx;
-	line-height: 60upx;
+	height: 60rpx;
+	line-height: 60rpx;
 	text-align: center;
 	margin: 0 auto ;
-	margin-top: -30upx;
+	margin-top: -30rpx;
 	background-color: #fff;
 	color: #448BF4;
-	font-size: 14px;
+	font-size: 28upx;
 	// align-items: center;
 }
 .changes1{
@@ -466,9 +486,9 @@ page {
 	}
 	.xian1{
 		width: 100%;
-		margin-bottom: 40upx;
+		margin-bottom: 40rpx;
 		height: 1px;
-		margin-top: 40upx;
+		margin-top: 40rpx;
 		// border: 1px silid #448BF4;
 		background-color:#fff;
 	}

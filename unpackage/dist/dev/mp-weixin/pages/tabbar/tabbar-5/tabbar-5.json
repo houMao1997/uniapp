@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#7BAFFA",
+  "navigationBarTitleText": "个人中心",
+  "color": "#fff",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "cmd-nav-bar": "/components/cmd-nav-bar/cmd-nav-bar"
+  }
+}
